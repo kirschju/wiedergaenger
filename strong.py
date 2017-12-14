@@ -41,8 +41,8 @@ CALL_BASE = "libc"
 
 ## CALL_TARGET Virtual address inside of glibc that the exploit should call
 ##             If set to None, the exploit will simply call __libc_main
-#CALL_TARGET = None
-CALL_TARGET = 0xd694f ## win gadget for Debian Buster (glibc 2.24-17)
+CALL_TARGET = None
+#CALL_TARGET = 0xd694f ## win gadget for Debian Buster (glibc 2.24-17)
 
 # ------------------- DON'T TOUCH ANYTHING BELOW THIS LINE ------------------- #
 
